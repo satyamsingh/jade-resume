@@ -7,7 +7,7 @@
 doctype html
 html(lang="en")
     head
-        title= 'Ayush Resume'
+        title= 'Ayush Sawarni'
         link(href="includes/css/style.css", rel="stylesheet")
         // Link to the corresponding fonts
         // Font: Raleway | https://github.com/mrkelly/lato.git
@@ -21,8 +21,8 @@ html(lang="en")
         // Things above the horizontal rule
         .heading
             h1 #[span #{firstName}] #{lastName}
-            h3 #[a(href="#") debarghyadas.com] | #[a(href="#") fb.co/dd]
-            h3 #[a(href="#") deedy@fb.com | 607.379.5733 | dd367@cornell.edu]
+            h3 #[a(href="mailto:sawarniayush@gmail.com") sawarniayush@gmail.com]
+            h3 #[a(href="mailto:f2014253@pilani.bits-pilani.ac.in") +91-7737208771 | f2014253@pilani.bits-pilani.ac.in]
         hr
         .content
             ////////////////////////
@@ -32,23 +32,26 @@ html(lang="en")
                 ///////// Begin Section: Education /////////
                 h1 Education
                 // Begin Subsection
-                h2 Cornell University
-                h3 MEng in Computer Science
-                h4 Dec 2014 | Ithaca, NY
+                h2 #[a(href="http://www.bits-pilani.ac.in/Pilani/index.aspx") BITS Pilani] 
+                h4 B.E. (Hons.) Electrical and Electronics
+                h4 Expected Aug 2018 | Pilani, India
                 // Space between two subsections
+                //br
+                // Begin Subsection
+                p.lead Cum. GPA: 8.28 / 10 
                 br
                 // Begin Subsection
-                h2 Cornell University
-                h3 BS in Computer Science
-                h4 May 2014 | Ithaca, NY
-                p College of Engineering
-                p Magna Cum Laude
-                p.lead Cum. GPA: 3.83/4.0
-                p.lead Major GPA: 3.9/4.0
+                h2 AISSCE (CLASS XII)
+                h3 Delhi Public School
+                h4 Grad. May 2014 | Ranchi, India
+                p.lead Score (%) : 94.8
+
                 br
-                // Begin Subsection
-                h2 La Martiniere for Boys
-                h4 Grad. May 2011| Kolkata, India
+
+                h2 AISSE (CLASS X)
+                h3 Delhi Public School, Ranchi
+                h4 Grad. May 2012 | Ranchi, India
+                p.lead GPA: 10 / 10
                 ///////// Begin Section: Links /////////
                 h1 Links
                 // List follows
@@ -59,16 +62,11 @@ html(lang="en")
                 ///////// Begin Section: Coursework /////////
                 h1 Coursework
                 // Begin Subsection
-                h2 Graduate
+                //h2 Graduate
                 - for (var i = 0; i < graduateCourses.length; i++)
                     p= graduateCourses[i]
                 
-                // Begin Subsection
-                h2 Undergraduate
-                - for (var i = 0; i < undergradCourses.length; i++)
-                    p= undergradCourses[i]
-                    - if (i == 4)
-                        p.italic.bold (Research Asst. & Teaching Asst 2x)
+                
 
                 ///////// Begin Section: Skills /////////
                 h1 Skills
@@ -76,7 +74,7 @@ html(lang="en")
                 h2 Programming
                 // Use no-overlap if inline list overlaps with any element
                 // above it
-                h4.no-overlap Over 5000 lines
+                h4.no-overlap Over 3000 lines
                 // Note: Use span with li elements so the bullets can be closer
                 //       than the browser default value. Refer:
                 //       http://stackoverflow.com/questions/4373046/css-control-space-between-bullet-and-li
@@ -101,22 +99,16 @@ html(lang="en")
                 ///////// Begin Section: Experience /////////
                 h1 Experience
                 // Begin Subsection
-                h2 Facebook | #[span Software Engineer]
-                h3 Jan 2015 - Present | New York, NY
+                
                 // Space between subsections, in case if they are too close
                 br
                 // Begin Subsection
-                h2 Coursera | #[span KPCB Fellow + Software Engineering Intern]
-                h3 June 2014 - Sep 2014 | Mountain View, CA
-                ul
-                    li 52 out of 2500 applicants chosen to be a #[a(href="#") KPCB] Fellow 2014
-                    li Led and shipped Yoda - the admin interface for the new Phoenix platform
-                    li. 
-                        Full-stack developer - Wrote and reviewed code for JS
-                        using Backbone, Jade, Stylus and Require and Scala using Play
+  
+                
                 // Begin Subsection
-                h2 Google | #[span Software Engineering Intern]
-                h3 May 2013 - Aug 2013 | Mountain View, CA
+                h2 DMRC | #[span Delhi Metro Rail Corporation]
+
+                h3 May 2016 - July 2016 | New Delhi, India
                 ul
                     li.
                         Worked on the YouTube Captions team, in Javascript and Python to plan
@@ -125,36 +117,48 @@ html(lang="en")
                     li.
                         Created a backbone.js-like framework for the Captions editor.
                 // Begin Subsection
-                h2 Phabricator | #[span Open Source Contributor & Team Leader]
-                h3 Jan 2013 - May 2013 | Palo Alto, CA & Ithaca, NY
-                ul
-                    li.
-                        Phabricator is used daily by Facebook, Dropbox, Quora, Asana
-                        and more
-                    li.
-                        I created the Meme Generator and more in PHP and Shell
-                    li.
-                        Led a team from MIT, Cornell, IC London and UHelsinki for the
-                        project
+                
                 ///////// Begin Section: Research /////////
-                h1 Research
+                h1 Major Projects 
                 // Begin Subsection
-                h2 Cornell Robot Learning Lab | #[span Researcher]
-                h3 Jan 2014 - Jan 2015 | Ithaca, NY
-                p.
-                    Worked with #[a(href="#") Ashesh Jain] and #[a(href="#") Prof Ashutosh Saxena] to create PlanIt,
-                    a tool which learns from large scale preference feedback to plan
-                    robot trajectories in human environments
+                h2 BITS LifeGuard | #[span Mentor: #[a(href="http://www.bits-pilani.ac.in/pilani/rahulbanerjee/profile") Dr. Rahul Banerjee] | HOD CSE, BITS Pilani]
+                h3 Oct 2015 - Present | Research Assistant
+                ul
+                    li Devoloping a fault-tolerant, cost-effective smart driver safety jacket with real time monitoring of vital signs, to prevent road accidents and taking emergency action in the unlikely case an accident occurs
+                    li Developed Bluetooth Authentication and intercommunication techniques for low computing capability sensor nodes
+                    li Currently working on sensor fusion for #[a(href="http://www.bits-pilani.ac.in/pilani/ProjectBITSLifeGuard/Home") LifeGuard]
+
                 br
                 // Begin Subsection
-                h2 Cornell Phonetics Lab | #[span Head Undergraduate Researcher]
-                h3 May 2012 - May 2013 | Ithace, NY
-                p.
-                    Led the development of QuickTongue, the first ever breakthrough
-                    tongue-controlled game with Prof Sam Tilsen to aid in Linguistics
-                    research
+                h2 Wearables sensor fusion | #[span Mentor: Dr. Rahul Banerjee]
+                h3 August 2016 - Present | Study Project
+                ul
+                    li Working on Adaptive learning aspects of Body Sensor Networks and sensor data fusion
+                    li Finding and implementing accurate Sensor Fusion algorithms to classify driver stress using physiological sensors 
+                    li Measuring the accuracy of the models created on various public driving datasets
+                
+                
+                // Begin Subsection
+                h2 e-Yantra | #[span IIT-Bombay | MHRD, Govt. of India]
+                h3 18th March 2016 - 19th March 2016
+                ul
+                    li Represented BITS Pilani and came 2<sup> nd</sup> out of 57 teams from all over India in the finals of #[a(href="http://www.e-yantra.org/") e-Yantra], a robotics competition
+                    li Coded the Firebird-5 bot over a span of 3 months to solve the problem statement of a Hotel Room Service scenario
+
+                ///////// Begin Section: Mini Projects //////////
+                h1 Mini Projects
+                h2 PSO optimized K-Means 
+                ul
+                    li Studied and implemented Particle Swarm Optimization and Ant Colony Optimization techniques to improve Clustering performance of K-Means
+                h2 Image captioning using CNN
+                ul
+                    li Created a classifier for CIFAR image dataset using Keras with TensorFlow in the Backend.
+                h2 ANC Bill Predictor
+                ul
+                    li Implemented various models for predicting the Monthly ANC Bill based on various criteria parameters related to a student's lifestyle in BITS.
+
                 ///////// Begin Section: Awards /////////
-                h1 Awards
+                h1 Achievements
                 table(cellspacing="0", cellpadding="0")
                     tbody
                         - for (var i = 0; i < table.length; i++)
@@ -162,16 +166,6 @@ html(lang="en")
                                 - for (var j = 0; j < table[i].length; j++)
                                     td!= table[i][j]
                 ///////// Begin Section: Publications /////////
-                h1 Publications
-                ol.publications-list
-                    li.
-                        #[a(href="#") A. Jain], #[a(href="#") D.Das] and #[a(href="#") A.Saxena]. Planit: A crowdsourcing approach
-                        for learning to plan paths from large scale preference
-                        feedback. #[span.italic Tech Report, ICRA, in press]
-                    li.
-                        S. TIlsen, D.Das, and B.McKee. Real-time articulatory
-                        biofeedback with electromagnetic articulography.
-                        #[span.italic Linguistics Vanguard, in press.]
                 ////////////////////////
                 /// Right Column Ends //
                 ////////////////////////

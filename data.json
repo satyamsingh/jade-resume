@@ -10,17 +10,20 @@
                         "Communication Systems",
                         "Optimization",
                         "Analog and Digital VLSI Design",
-			"Object Oriented Programming"
+			                  "Object Oriented Programming",
+			                 "Microprocessors and Intefacing",
+			"Operating Systems (ongoing)",
+"Signals and Systems",
+"Control Systems"
                         ],
     "undergradCourses": [],
     "links": [["Facebook", "url", "ayush.sawarni"],
               ["GitHub", "url", "sawarniayush"],
               ["LinkedIn", "url", "ayush-sawarni-388285a2"],
               ["Google", "url", "sawarniayush"]],
-    "table": [["2014", "Top 52/2500", "KPCB Engineering Fellow"],
-              ["2014", "1 <sup>st</sup>/50", "Microsoft Coding Competition, Cornell"],
-              ["2013", "National", "Jump Trading Challenge Finalist"],
-              ["2013", "7 <sup>th</sup>/120", "CS 3410 Cache Race Bot Tournament"],
-              ["2012", "2 <sup>nd</sup>/150", "CS 3110 Biannual Intra-Class Bot Tournament"],
-              ["2012", "National", "Indian National Mathematics Olympiad(INMO) Finalist"]]
+    "table": [["2016",  "2<sup>nd</sup> in Eyantra Robotics Competition, IIT Bombay"],
+              ["2016", "National finalist in Microsoft's Build the Shield CTF Competition"],
+              ["2014", "3006-AIR(All India Rank) JEE-Advanced Exam (IIT-JEE)"],
+              ["2014", "Inspire Scholarship-for pursuing higher studies in pure science."],
+    ["2010", "Woodside Sci-tech Science award for excellence in science, Perth, Australia"]]
 }
