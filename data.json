@@ -1,8 +1,8 @@
 {
     "firstName": "Ayush",
     "lastName": "Sawarni",
-    "languagesStrong": ["Python", "C/C++","Java", "Matlab"],
-    "languagesFamiliar": [ "Android","MySQL","x86 Assembler","C#"],
+    "languagesStrong": ["Python", "C/C++"],
+    "languagesFamiliar": [ "Android","Java", "Matlab","x86 Assembler","C#"],
     "graduateCourses": ["Machine Learning",
                         "Neural Networks and Fuzzy Logic",
 			"Discrete Structures for Computer Science",
